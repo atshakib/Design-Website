@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: hsl(30, 54%, 90%);
+            display: flex;
+            justify-content: center;
+        }
+        .container{
+            width: 500px;
+            background-color: #fff;
+            height: 1850px;
+            margin-top: 100px;
+            border-radius: 1.5rem;
+            margin-bottom: 100px;
+        }
+        #p3{
+            display: block;
+            padding-top: 12.5px;
+            font-family: cursive;
+            font-size: 12px;
+            font-weight: 700;
+            padding-left: 5px;
+        }
+        .footer{
+            display: flex;
+            padding-left: 22px;
+        }
+        #avatar{
+            height: 33.75px;
+            width: 33.75px;
+            padding-left: 15px;
+            padding-top: 10px;
+            display: inline;
+        }
+        img{
+            width: 460px;
+            padding-left: 20px;
+            padding-top: 20px;
+            border-radius: 2rem;
+        }
+        h1{
+            font-family: cursive;
+            font-size: 25px;
+            padding-left: 22px;
+            padding-top: 10px;
+        }
+        #p1{
+            color: gray;
+            padding-left: 22px;
+            font-family: cursive;
+            padding-top: 10px;
+            padding-right: 20px;
+        }
+        #h31{
+            color: hsl(332, 51%, 32%);
+            padding-left: 22px;
+            padding-top: 10px;
+            font-family: cursive;
+            font-size: 20px;
+        }
+        #li1{
+            padding-left: 60px;
+            padding-top: 10px;
+            color: hsl(30, 10%, 34%);
+            font-family: cursive;
+        }
+        li{
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+        h2{
+            color: hsl(14, 45%, 36%);
+            font-size: 22.5px;
+            font-family: cursive;
+            padding-left: 22px;
+            padding-top: 25px;
+            font-weight: 700;
+        }
+        #li2{
+            padding-left: 47px;
+            font-family: cursive;
+            color: hsl(30, 10%, 34%);
+            font-size: 16px;
+        }
+        #li3{
+            padding-left: 47px;
+            font-family: cursive;
+            color: hsl(30, 10%, 34%);
+        }
+        .text{
+            padding-right: 20px;
+        }
+        b{
+            display: inline;
+        }
+        .para{
+            display: inline;
+        }
+        #p2{
+            padding-left: 22px;
+            padding-top: 15px;
+            font-family: cursive;
+            color: hsl(30, 10%, 34%);
+            padding-right: 20px;
+        }
+        table{
+            padding-left: 22px;
+            padding-top: 15px;
+            font-family: cursive;
+        }
+        tr{
+            border-bottom: 1px solid #5e574f;
+        }
+        .table{
+            width: 90%;
+            padding-left: 10%;
+        }
+        .t1{
+            color: var(--bs-table-color-state,var(--bs-table-color-type,var(--bs-table-color)));
+            color: #5e574f;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="img">
+            <img src="image-omelette.jpeg" alt="">
+        </div>
+        <div class="text">
+            <h1>Simple Omelette Recipe</h1>
+            <p id="p1">An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+            <h3 id="h31">Preparation time</h3>
+            <ul id="li1">
+                <li><b>Total:</b> Approximately 10 minutes</li>
+                <li><b>Preparation: </b>5 minutes</li>
+                <li><b>Cooking: </b>5 minutes</li>
+            </ul>
+
+
+            <h2 id="h21">Ingredients</h2>
+            <ul id="li2">
+                <li>
+                    <p>2-3 large eggs</p>
+                </li>
+                <li>
+                    <p>Salt, to taste</p>
+                </li>
+                <li>
+                    <p>Pepper, to taste</p>
+                </li>
+                <li>
+                    <p>1 tablespoon of butter or oil</p>
+                </li>
+                <li>
+                    <p>Optional fillings: cheese, diced vegetables, cooked meats, herbs</p>
+                </li>
+            </ul>
+
+
+            <h2>Instruction</h2>
+            <ol id="li3">
+                <li>
+                    <b>Beat the eggs: </b>
+                    <p class="para">In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.</p>
+                </li>
+                <li>
+                    <b>Heat the pan: </b>
+                    <p class="para">Place a non-stick frying pan over medium heat and add butter or oil.</p>
+                </li>
+                <li>
+                    <b>Cook the omelette: </b>
+                    <p class="para">Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface.</p>
+                </li>
+                <li>
+                    <b>Add fillings(Optional): </b>
+                    <p class="para">When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette.</p>
+                </li>
+                <li>
+                    <b>Fold and serve: </b>
+                    <p class="para">As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate.</p>
+                </li>
+                <li>
+                    <b>Enjoy: </b>
+                    <p class="para">Serve hot, with additional salt and pepper if needed. </p>
+                </li>
+            </ol>
+
+
+            <h2>Nutrition</h2>
+            <p id="p2">The table below shows nutritional values per serving without additional fillings.</p>
+        </div>
+        <div class="table">
+            <table class="table table-striped">
+                <tr>
+                    <td style="color: #5e574f;">Calories</td>
+                    <td style="color: hsl(14, 45%, 36%);">277kcal</td>
+                </tr>
+                <tr>
+                    <td style="color: #5e574f;">Carbs</td>
+                    <td style="color: hsl(14, 45%, 36%);">0g</td>
+                </tr>
+                <tr>
+                    <td style="color: #5e574f;">Protein</td>
+                    <td style="color: hsl(14, 45%, 36%);">20g</td>
+                </tr>
+                <tr>
+                    <td style="color: #5e574f;">fat</td>
+                    <td style="color: hsl(14, 45%, 36%);">22g</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="footer">
+            <img src="atshakib.png" alt="" id="avatar">
+            <p id="p3">A T Shakib</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
