@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Feature</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            overflow-x: hidden;
+        }
+        .texts{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 15px;
+            padding-top: 25px;
+        }
+        #one{
+            font-family: poppins;
+            color: hsl(229, 6%, 66%);
+        }
+        #two{
+            color: hsl(234, 12%, 34%);
+            padding-top: 10px;
+        }
+        #three{
+            color: hsl(229, 6%, 66%);
+            padding-left: 20%;
+            padding-right: 20%;
+            padding-top: 10px;
+            font-family: cursive;
+            text-align: center;
+        }
+        .card{
+            height: 200px;
+            width: 360px;
+            box-shadow: 0 5px 5px black;
+        }
+        .card1{
+            border-top: 5px solid hsl(180, 62%, 55%);
+            padding-top: 10px;
+        }
+        .card2{
+            border-top: 5px solid hsl(0, 78%, 62%);
+            margin: 25px 15px;
+        }
+        .card3{
+            border-top: 5px solid hsl(34, 97%, 64%);
+            margin: 25px 15px;
+        }
+        .card4{
+            border-top: 5px solid hsl(212, 86%, 64%);
+            margin-bottom: 50px;
+        }
+        
+        h3{
+            padding-top: 25px;
+            padding-left: 20px;
+            font-family: cursive;
+            color: hsl(234, 12%, 34%);
+        }
+        p{
+            padding-top: 10px;
+            padding-left: 20px;
+            font-family: cursive;
+            color: hsl(229, 6%, 66%);
+        }
+        img{
+            height: 50px;
+            padding-top: 20px;
+            padding-left: 250px;
+        }
+        .row-one , .row-two , .row-three{
+            width: 100vw;
+            display: flex;
+        }
+        .row-one{
+            padding-top: 25px;
+            justify-content: center;
+        }
+        .row-two{
+            justify-content: center;
+        }
+        .row-three{
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="texts">
+        <h1 id="one">Reliable, efficient delivery</h1>
+        <h1 id="two">Powered by Technology</h1>
+        <p id="three">Our Artificial Intelligence powered tools use millions of project data points to ensure that your project data points to ensure that your project is successful</p>
+    </div>
+    <div class="cards">
+        <div class="row-one">
+            <div class="card card1">
+                <h3>Supervisor</h3>
+                <p>Monitors activity to identify project roadblocks</p>
+                <img src="icon-supervisor.png" alt="">
+            </div>
+        </div>
+
+
+        <div class="row-two">
+            <div class="card card2">
+                <h3>Team Builder</h3>
+                <p>Scans out talent network to create the optimal team for your project</p>
+                <img src="icon-team-builder.png" alt="">
+            </div>
+            <div class="card card3">
+                <h3>Karma</h3>
+                <p>Regularly evaluates our talent ensure quality</p>
+                <img src="icon-karma.png" alt="">
+            </div>
+        </div>
+
+
+        <div class="row-three">
+            <div class="card card4">
+                <h3>Calculator</h3>
+                <p>Uses data from past projects to provide better delivery estimates</p>
+                <img src="icon-calculator.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
