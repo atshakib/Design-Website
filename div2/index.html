@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Review Card</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: hsl(47, 88%, 63%);
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            height: 375px;
+            width: 265px;
+            background-color: #fff;
+            border-radius: 1rem;
+            box-shadow: 10px 10px ;
+        }
+        img{
+            width: 235px;
+            border-radius: 0.5rem;
+        }
+        .img{
+            padding-top: 15px;
+            padding-left: 15px;
+        }
+
+        .tag{
+            padding-left: 15px;
+            padding-top: 10px;
+        }
+
+        button{
+            padding: 5px 10px;
+            border-radius: 1rem;
+            background-color:hsl(47, 88%, 63%);
+            font-size: 10px;
+            font-weight: 700;
+        }
+        .texts{
+            padding-left: 15px;
+            padding-top: 5px;
+            font-family: cursive;
+        }
+        #p1{
+            font-size: 10px;
+            padding-top: 5px;
+            padding-bottom: 20px;
+        }
+        #p2{
+            font-size: 12px;
+            color: gray;
+        }
+        h1{
+            font-size: 18px;
+            padding-bottom: 20px;
+        }
+        #avatar{
+            height: 25px;
+            width: 25px;
+            padding-left: 15px;
+            padding-top: 10px;
+            display: block;
+        }
+        #p3{
+            display: block;
+            padding-top: 12.5px;
+            font-family: cursive;
+            font-size: 12px;
+            font-weight: 700;
+            padding-left: 5px;
+        }
+        .footer{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="img">
+                <img src="illustration-article.png" alt="">
+            </div>
+            <div class="tag">
+                <button>Learning</button>
+            </div>
+            <div class="texts">
+                <p id="p1">Published on 18 May,2024</p>
+                <h1>HTML & CSS Foundation</h1>
+                <p id="p2">These language are the backbone of every website, defining structure, content and presentation.</p>
+            </div>
+            <div class="footer">
+                <img src="atshakib.png" alt="" id="avatar">
+                <p id="p3">A T Shakib</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

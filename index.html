@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A T Shakib's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            padding-top: 20px;
+        }
+        .row-one{
+            display: flex;
+            justify-content: space-between;
+        }
+        .float:hover{
+            background-color: #CCCCFF;
+        }
+        
+        .float{
+            width: 300px;
+            height: 320px;
+            background-color: #fefefe;
+            border-radius: 1rem;
+        }
+        .img{
+            padding-left: 50px;
+            padding-top: 10px;
+        }
+        img{
+            height: 230px;
+            width: 200px;
+        }
+        a{
+            text-decoration: none;
+        }
+        .title{
+            padding-left: 85px;
+            padding-top: 10px;
+        }
+        h1{
+            font-size: 15px;
+            border: 2px solid rgba(0, 0, 0, 0.366);
+            display: inline-flex;
+            border-radius: 1rem;
+            background-color: rgb(5, 113, 141);
+            color: #fefefe;
+            padding: 10px;
+        }
+        h1:hover{
+            background-color: #40E0D0;
+            color: black;
+        }
+        .social-img{
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+        .img-blog{
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+        .blog{
+            border-radius: 1rem;
+            width: 280px;
+        }
+        .title-blog{
+            padding-left: 80px;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body class="p-3 mb-2 bg-dark text-white">
+    <!--
+        Navigation Bar from Bootstrap.
+    -->
+    <nav class="navbar navbar-expand-lg  p-3 mb-2 bg-info text-dark" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <!--
+        div's in an anchor link
+    -->
+    <div class="row-one">
+
+        <!--Div for QR Code Card-->
+        <div class="container">
+            <div class="float">
+                <a href="div1/index.html">
+                    <div class="img">
+                        <img src="qr.png" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>QR Code Card</h1>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!--Div for Blog Preview Card-->
+        <div class="container">
+            <div class="float">
+                <a href="div2/index.html">
+                    <div class="img-blog">
+                        <img src="blog.png" class="blog" alt="">
+                    </div>
+                    <div class="title-blog">
+                        <h1 class="h-blog">Blog Preview Card</h1>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+        <!-- Div for Social Link Profile -->
+        <div class="container">
+            <div class="float">
+                <a href="div3/index.html">
+                    <div class="social-img">
+                        <img src="social.png" class="blog" alt="">
+                    </div>
+                    <div class="title-blog">
+                        <h1 class="h-blog">Social Link Profile</h1>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
